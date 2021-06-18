@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: kaushan;
+    src: url(KaushanScript-Regular.otf);
+}
+
 html, body{
     height: 100%;
     background-color: #f4f4f4;
@@ -38,8 +43,10 @@ li.li1 {
 nav{
     text-align: center;
     background-color: #79DCF1;
-    font-family: "MS Sans Serif", Geneva, sans-serif;
+    font-family: kaushan;
     font-weight: bold;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -61,6 +68,35 @@ section{
     width: 23%;
     max-height: 500px;
     background-color: #EAEAEA;
+ul{
+    margin: 0;
+}
+
+header{
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+figure{
+    margin: 0;
+}
+
+h1{
+    background-color: #FFD0A2;
+    font-family: kaushan;
+    margin: 0;
+    padding: 0.3em;
+    border-radius: 1em; 
+
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .container {
@@ -80,19 +116,19 @@ section{
 }
 
 #facts{
-    background-color: #83BFCA;
+    background-color: #C3EAF3;
 }
 
 #ingredients{
-    background-color: #B48AD2;
+    background-color:#AAE6F2;
 }
 
 #instructions{
-    background-color: #FFFDA2;
+    background-color: #E0F0F4;
 }
 
 #equipment{
-    background-color: #FFD0A2;
+    background-color: #C3EAF3;
 }
 
 #flow{
@@ -100,8 +136,19 @@ section{
     flex-direction: row;
     flex-wrap: wrap;
 }
-
+  
 footer{
     background-color: black;
     color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+#footer-logo, #footer-design{
+    width: 33%;
+}
+
+#footer-contact{
+    width: 34%;
 }
