@@ -41,19 +41,24 @@ li.li1 {
 }
 
 nav{
+    display: flex;
     text-align: center;
     background-color: #79DCF1;
     font-family: kaushan;
     font-weight: bold;
     margin: 0;
     padding: 0;
+    justify-content: space-around;
+}
+
+nav img {
+    margin: 0.5em;
 }
 
 nav ul{
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     font-size: 1.5em;
 }
 
