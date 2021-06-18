@@ -33,26 +33,30 @@ nav li{
     flex-wrap: wrap;
 }
 
-#divleft1, #divleft2{
-    width: 30%;
-}
-#divright1, #divright2{
-    width: 70%;
+#facts, #equipment{
+    width: 33%;
 }
 
-#divleft1{
+#ingredients{
+    width: 34%;
+}
+#instructions{
+    width: 100%;
+}
+
+#facts{
     background-color: #83BFCA;
 }
 
-#divleft2{
+#ingredients{
     background-color: #B48AD2;
 }
 
-#divright1{
+#instructions{
     background-color: #FFFDA2;
 }
 
-#divright2{
+#equipment{
     background-color: #FFD0A2;
 }
 footer{
