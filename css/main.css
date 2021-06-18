@@ -49,7 +49,6 @@ nav{
     padding: 0;
 }
 
-
 nav ul{
     list-style-type: none;
     display: flex;
@@ -65,9 +64,11 @@ nav li{
 section{
     margin: 1em;
     padding: 0;
-    width: 23%;
+    width: 20%;
     max-height: 500px;
     background-color: #EAEAEA;
+}
+
 ul{
     margin: 0;
 }
@@ -89,7 +90,6 @@ h1{
     margin: 0;
     padding: 0.3em;
     border-radius: 1em; 
-
 }
 
 .center{
@@ -106,10 +106,12 @@ h1{
 
 #facts, #equipment{
     width: 33%;
+    border-radius: 1em; 
 }
 
 #ingredients{
     width: 34%;
+    border-radius: 1em; 
 }
 #instructions{
     width: 100%;
@@ -135,6 +137,7 @@ h1{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
   
 footer{
